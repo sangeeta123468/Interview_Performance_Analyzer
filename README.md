@@ -1,85 +1,101 @@
-# 🎯 Smart Interview Performance Analyzer  
+# 🎯 Smart Interview Performance Analyzer
 
-> 🚀 A data-driven system to evaluate, compare, and predict interview performance using Machine Learning.
+## 📌 Overview
 
----
-
-## 🧠 Idea Behind the Project  
-
-Interviews are often subjective.  
-This project aims to make them **data-driven, measurable, and insightful** by analyzing:
-
-- 📊 Technical skills (DSA)
-- 💬 Communication ability
-- 🧩 Problem-solving skills
-- ⏱ Time efficiency
+Smart Interview Performance Analyzer is a data-driven project that evaluates interview performance using Machine Learning and visualization techniques.  
+It analyzes candidates based on technical and non-technical parameters to provide insights and predictions.
 
 ---
 
-## ⚡ What Makes This Project Unique?
+## 🚀 Features
 
-✨ Combines **Machine Learning + Visualization + Real-time Analysis**  
-✨ Handles **1000+ candidate dataset**  
-✨ Supports **dynamic dataset upload (CSV)**  
-✨ Provides **candidate comparison (like a mini HR tool)**  
-✨ Includes **time-based performance evaluation**  
-
----
-
-## 🚀 Key Features  
-
-🔹 Real-time performance scoring  
-🔹 ML-based prediction (Linear Regression)  
-🔹 Interactive dashboard (Streamlit)  
-🔹 Leaderboard & Top Performer detection  
-🔹 Candidate vs Candidate comparison ⚔️  
-🔹 Data visualization:
-- Histogram 📊  
-- Scatter plots 📈  
-- Heatmap 🔥  
-- Radar chart 🎯  
-
-🔹 Downloadable performance report 📥  
+* Real-time interview performance scoring
+* Machine Learning-based prediction (Linear Regression)
+* Candidate comparison system
+* Leaderboard & Top Performer detection
+* Data visualization (graphs, heatmap, radar chart)
+* CSV dataset upload support
+* Downloadable performance report
 
 ---
 
-## 🏗️ Tech Stack  
+## 🛠️ Tech Stack
 
-| Category        | Tools Used |
-|----------------|-----------|
-| Language       | Python 🐍 |
-| Framework      | Streamlit |
-| Data Handling  | Pandas |
-| ML Model       | Scikit-learn |
-| Visualization  | Matplotlib, Seaborn |
+* Backend: Python
+* Framework: Streamlit
+* Data Handling: Pandas
+* Machine Learning: Scikit-learn
+* Visualization: Matplotlib, Seaborn
 
 ---
 
-## 📊 Dataset  
+## 📁 Project Structure
 
-- 📁 Synthetic dataset of **1000+ candidates**
-- Features include:
-  - Name
-  - DSA Score
-  - Communication Score
-  - Problem Solving
-  - Questions Solved
-  - Time Taken
+Interview_Project/
+├── app.py  
+├── main.py  
+├── data.csv  
+├── generate_data.py  
+├── README.md  
 
 ---
 
-## 🤖 Machine Learning  
+## ▶️ How to Run
 
-- Model Used: **Linear Regression**
-- Purpose:
-  - Predict candidate performance
-  - Validate scoring logic
+### 🔹 Step 1: Clone the repository
+
+git clone https://github.com/sangeeta123468/Interview_Performance_Analyzer.git  
+
+### 🔹 Step 2: Open project folder
+
+cd Interview_Performance_Analyzer  
+
+### 🔹 Step 3: Install dependencies
+
+pip install streamlit pandas matplotlib seaborn scikit-learn  
+
+### 🔹 Step 4: Run the application
+
+streamlit run app.py  
+
+---
+
+## 📊 Dataset
+
+* Synthetic dataset of 1000+ candidates
+* Features include:
+  - Name  
+  - DSA Score  
+  - Communication  
+  - Problem Solving  
+  - Questions Solved  
+  - Time Taken  
+
+---
+
+## 🤖 Machine Learning
+
+* Model Used: Linear Regression  
+* Purpose:
+  - Predict candidate performance  
+  - Validate scoring logic  
   - Provide intelligent estimation  
 
 ---
 
-## ▶️ Run Locally  
+## 🎯 Purpose
 
-```bash
-pip install streamlit pandas matplotlib seaborn scikit-learn
-streamlit run app.py
+This project is created to simulate a real-world interview evaluation system using data analysis and machine learning techniques.
+
+---
+
+## 👩‍💻 Author
+
+Sangeeta Kumari Mandal  
+CSE Dual Degree, IIT Kharagpur  
+
+---
+
+## 🌐 GitHub Repository
+
+https://github.com/sangeeta123468/Interview_Performance_Analyzer
