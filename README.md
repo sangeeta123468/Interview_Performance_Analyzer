@@ -19,13 +19,22 @@ It analyzes candidates based on technical and non-technical parameters to provid
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack  
 
-* Backend: Python
-* Framework: Streamlit
-* Data Handling: Pandas
-* Machine Learning: Scikit-learn
-* Visualization: Matplotlib, Seaborn
+### 🔹 Programming & Backend  
+- Python (Core logic, API handling)  
+
+### 🔹 Framework  
+- Streamlit (Interactive web application development)  
+
+### 🔹 Data Processing  
+- Pandas (Data manipulation and analysis)  
+
+### 🔹 Machine Learning  
+- Scikit-learn (Linear Regression for prediction)  
+
+### 🔹 Visualization  
+- Matplotlib, Seaborn (Data visualization and analytics)  
 
 ---
 
